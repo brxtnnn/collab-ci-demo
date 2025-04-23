@@ -60,4 +60,47 @@ body {
     padding-bottom: 10px;
     text-shadow: 0 0 5px rgba(0,0,0,0.7);
   }
+
+  .saved-palettes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .saved-palette {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .saved-color-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 40px;
+    font-family: monospace;
+    user-select: none;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background: #a71d2a;
+  }
   
